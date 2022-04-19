@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tính giai thừa của một số</title>
 </head>
 <body>
+<script>
+    let a = parseInt(prompt("nhập số nguyên dương:"));
+    let c=1;
+    while (a <= 0) {
+        a = prompt("nhập lại số nguyên dương :");
 
+    }
+    for (i = 1; i <= a; i++) {
+        c = c * i;
+    }
+    alert("giai thừa của " + a + " là: "+ c );
+</script>
 </body>
 </html>
